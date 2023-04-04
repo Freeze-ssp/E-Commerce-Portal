@@ -1,11 +1,12 @@
 .footer {
-    margin: 100px 200px 20px 200px;
+    margin: 50px 60px 20px 100px;
   
     .top {
       display: flex;
-      gap: 50px;
+      gap: 30px;
   
-      .item {
+      .item1 {
+        margin-top: 5px;
         flex: 1;
         display: flex;
         flex-direction: column;
@@ -21,6 +22,41 @@
   
         span{
           color: gray;
+        }
+      }
+
+      .item2 {
+        flex-direction: column;
+        text-align: justify;
+        font-size: 14px;
+
+        h1{
+          margin-bottom: 15px;
+        }
+      }
+
+      .item3{
+        padding-left: 50px;
+        width: 100%;
+        flex-direction: column;
+        gap: 10px;
+        text-align: justify;
+        font-size: 14px;
+
+        h1{
+          margin-bottom: 15px;
+        }
+
+        img {
+          width: 5vh;
+        }
+
+        span{
+          display: flex;
+          gap: 10px;
+          text-align: center;
+          align-items: center;
+          font-size: 15px;
         }
       }
     }

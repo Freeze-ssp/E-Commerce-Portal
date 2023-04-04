@@ -13,16 +13,14 @@ const FeaturedProducts = ({ type }) => {
       <div className="top">
         <h1>{type} products</h1>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum
-          suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan
-          lacus vel facilisis labore et dolore magna aliqua. Quis ipsum
-          suspendisse ultrices gravida. Risus commodo viverra maecenas.
+        Indulge in luxury with our premium bedsheets - soft, silky, and made to last. Elevate your wardrobe with our stylish 
+        women's clothing collection - from classic staples to trendy pieces, we've got you covered. Shop now and experience 
+        the ultimate in comfort and fashion.
         </p>
       </div>
       <div className="bottom">
         {error
-          ? "Something went wrong!"
+          ? ""
           : loading
           ? "loading"
           : data?.map((item) => <Card item={item} key={item.id} />)}
