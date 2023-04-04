@@ -29,6 +29,9 @@ const Navbar = () => {
                     <div className="item">
                       <Link className="link" to="/products/1">Bedsheets</Link> 
                     </div>
+                    <div className="item">
+                      <Link className="link" to="/products/2">Women</Link>
+                    </div>
                 </div>
                 <div className="center">
                     <Link className="link" to="/">MASS SALES</Link>
