@@ -23,7 +23,7 @@ const Navbar = () => {
                       <KeyboardArrowDownIcon />
                     </div>
                     <div className="item">
-                      <Link className="link" to="/products/1">Bedsheets</Link> 
+                      <Link className="link" to="/products/7">Bedding</Link> 
                     </div>
                     <div className="item">
                       <Link className="link" to="/products/3">Women</Link>
